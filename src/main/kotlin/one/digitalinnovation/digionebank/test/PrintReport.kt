@@ -1,4 +1,6 @@
-package one.digitalinnovation.digionebank
+package one.digitalinnovation.digionebank.test
+
+import one.digitalinnovation.digionebank.Employee
 
 class PrintReport {
     //static method that we can summon up by class
