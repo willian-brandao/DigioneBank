@@ -4,6 +4,7 @@ import one.digitalinnovation.digionebank.Bank
 
 fun main(){
     val digioneBank = Bank(name="Digione", id=1978)
+
     //use a function of bank to print properties
     println(digioneBank.info())
 
