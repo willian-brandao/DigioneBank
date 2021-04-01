@@ -5,13 +5,12 @@ class Person {
     var id: String = "123.123.123-11"
     private set
 
+    constructor()
+    fun personInfo() = "$name , $id"
 }
 
 fun main() {
     val p = Person()
-
-
-    println(p.name)
-    println(p.id)
+    println(p.personInfo())
 
 }
